@@ -1,0 +1,153 @@
+{
+  "mod_elements": [
+    {
+      "name": "Scary",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scary"
+    },
+    {
+      "name": "Customsus",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "customsus"
+    },
+    {
+      "name": "Didsquesus1",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "didsquesus_1"
+    },
+    {
+      "name": "Sussyitem",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussyitem"
+    },
+    {
+      "name": "Sans",
+      "type": "painting",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sans"
+    },
+    {
+      "name": "Forgestick",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgestick"
+    },
+    {
+      "name": "Eatastick",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eatastick"
+    },
+    {
+      "name": "Sussyitem1",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussyitem_1"
+    },
+    {
+      "name": "Sussycraft1",
+      "type": "function",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussycraft_1"
+    },
+    {
+      "name": "Sussypickaxe",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussypickaxe"
+    },
+    {
+      "name": "Cheetstick",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheetstick"
+    },
+    {
+      "name": "SussyitemItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussyitem_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sussy-song",
+      "files": [
+        "scary_song"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.sussypickaxe.title": "Sussypickaxe",
+      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
+      "advancements.customsus.title": "you choose the sussy path",
+      "item.dond_cheou_et_autre_trucs_chelou.forgestick": "stickcheet",
+      "subtitles.sussy-song": "",
+      "itemGroup.tabdidsquesus_1": "Didsquesus 1",
+      "advancements.eatastick.title": "Eatastick",
+      "item.dond_cheou_et_autre_trucs_chelou.scary": "Scary",
+      "advancements.sussypickaxe.descr": "get the sussy pickaxe",
+      "item.dond_cheou_et_autre_trucs_chelou.sussyitem": "Sussypickaxe",
+      "advancements.customsus.descr": "listen the scary disc",
+      "advancements.eatastick.descr": "eat a stickcheet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dond_cheou_et_autre_trucs_chelou",
+    "modName": "dond cheou et autre trucs chelou",
+    "version": "1.0.0",
+    "author": "Noel3, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dondcheouetautretrucschelou",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

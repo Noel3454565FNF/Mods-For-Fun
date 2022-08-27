@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="dond_cheou_et_autre_trucs_chelou"
+version="1.0.0"
+displayName="dond cheou et autre trucs chelou"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Noel3, MCreator"
+
+[[dependencies.dond_cheou_et_autre_trucs_chelou]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

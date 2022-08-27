@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "function",
+  "definition": {
+    "code": "/give @s minecraft:diamond 1",
+    "name": "sussycraft_1",
+    "namespace": "mod"
+  }
+}

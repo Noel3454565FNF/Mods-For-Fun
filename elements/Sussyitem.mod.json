@@ -1,0 +1,39 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sussypickaxe",
+    "customModelName": "Normal",
+    "name": "Sussypickaxe",
+    "specialInfo": [
+      "is very sus"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 0.1,
+    "enchantability": 8,
+    "damageVsEntity": 2.0,
+    "usageCount": 555,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Scary"
+      },
+      {
+        "value": "Blocks.AMETHYST_CLUSTER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "SussyitemItemIsCraftedsmelted"
+    }
+  }
+}

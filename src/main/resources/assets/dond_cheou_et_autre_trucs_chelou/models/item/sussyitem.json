@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dond_cheou_et_autre_trucs_chelou:items/sussypickaxe"
+  }
+}

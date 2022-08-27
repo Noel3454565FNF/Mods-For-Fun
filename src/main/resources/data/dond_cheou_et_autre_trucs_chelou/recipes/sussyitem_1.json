@@ -1,0 +1,30 @@
+{
+  "group": "item",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "dond_cheou_et_autre_trucs_chelou:scary"
+    },
+    "1": {
+      "item": "dond_cheou_et_autre_trucs_chelou:scary"
+    },
+    "2": {
+      "item": "dond_cheou_et_autre_trucs_chelou:scary"
+    },
+    "4": {
+      "item": "dond_cheou_et_autre_trucs_chelou:forgestick"
+    },
+    "7": {
+      "item": "dond_cheou_et_autre_trucs_chelou:forgestick"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:sussyitem",
+    "count": 1
+  }
+}
