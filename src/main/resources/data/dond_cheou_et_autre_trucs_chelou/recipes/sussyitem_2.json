@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dond_cheou_et_autre_trucs_chelou:scary"
+    },
+    "1": {
+      "item": "dond_cheou_et_autre_trucs_chelou:scary"
+    },
+    "2": {
+      "item": "dond_cheou_et_autre_trucs_chelou:forgestick"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:sussysword",
+    "count": 1
+  }
+}
