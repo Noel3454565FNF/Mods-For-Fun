@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of MLG",
+    "splashName": "Splash Potion of MLG",
+    "lingeringName": "Lingering Potion of MLG",
+    "arrowName": "Arrow of MLG",
+    "effects": [
+      {
+        "effect": {
+          "value": "LEVITATION"
+        },
+        "duration": 10,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
