@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModTabs;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModItems;
+import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModFeatures;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,6 +48,8 @@ public class DondCheouEtAutreTrucsChelouMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		DondCheouEtAutreTrucsChelouModItems.REGISTRY.register(bus);
+
+		DondCheouEtAutreTrucsChelouModFeatures.REGISTRY.register(bus);
 
 	}
 

@@ -133,6 +133,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sussyswordavancement"
+    },
+    {
+      "name": "Redstonesupplytemple",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonesupplytemple"
     }
   ],
   "variable_elements": [],
