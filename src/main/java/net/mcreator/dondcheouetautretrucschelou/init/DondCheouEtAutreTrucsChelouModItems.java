@@ -14,6 +14,7 @@ import net.mcreator.dondcheouetautretrucschelou.item.SussyswordItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyitemItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ScaryItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ForgestickItem;
+import net.mcreator.dondcheouetautretrucschelou.item.ExplodeitemItem;
 import net.mcreator.dondcheouetautretrucschelou.DondCheouEtAutreTrucsChelouMod;
 
 public class DondCheouEtAutreTrucsChelouModItems {
@@ -22,4 +23,5 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> SUSSYITEM = REGISTRY.register("sussyitem", () -> new SussyitemItem());
 	public static final RegistryObject<Item> FORGESTICK = REGISTRY.register("forgestick", () -> new ForgestickItem());
 	public static final RegistryObject<Item> SUSSYSWORD = REGISTRY.register("sussysword", () -> new SussyswordItem());
+	public static final RegistryObject<Item> EXPLODEITEM = REGISTRY.register("explodeitem", () -> new ExplodeitemItem());
 }

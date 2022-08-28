@@ -165,6 +165,110 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "badvillager"
+    },
+    {
+      "name": "Sussypeinture",
+      "type": "painting",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussypeinture"
+    },
+    {
+      "name": "Scaryloot",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaryloot"
+    },
+    {
+      "name": "KDBpicture",
+      "type": "painting",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kd_bpicture"
+    },
+    {
+      "name": "Hommagepicture",
+      "type": "painting",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hommagepicture"
+    },
+    {
+      "name": "Explode_when_right_click",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_when_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explode_whe_is_destroy",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_whe_is_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explodeitem",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explodeitem"
+    },
+    {
+      "name": "Sussypotioncraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussypotioncraft"
     }
   ],
   "variable_elements": [],
@@ -189,6 +293,7 @@
       "item.minecraft.splash_potion.effect.potionsus": "Splash Potion of MLG",
       "item.dond_cheou_et_autre_trucs_chelou.forgestick": "stickcheet",
       "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.explodeitem": "Explodeitem",
       "subtitles.sussy-song": "",
       "itemGroup.tabdidsquesus_1": "Didsquesus 1",
       "advancements.eatastick.title": "Eatastick",
