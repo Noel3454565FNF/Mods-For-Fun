@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "dond_cheou_et_autre_trucs_chelou:bolofpasta"
+    },
+    "title": {
+      "translate": "advancements.pastaisgood.title"
+    },
+    "description": {
+      "translate": "advancements.pastaisgood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pastaisgood": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "dond_cheou_et_autre_trucs_chelou:bolofpasta"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "dond_cheou_et_autre_trucs_chelou:customsus"
+}

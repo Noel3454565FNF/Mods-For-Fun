@@ -269,6 +269,194 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sussypotioncraft"
+    },
+    {
+      "name": "Pate",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pate"
+    },
+    {
+      "name": "Abandonned_pasta",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandonned_pasta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pasta",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasta"
+    },
+    {
+      "name": "Cooked_pasta",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_pasta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bolofpasta",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolofpasta"
+    },
+    {
+      "name": "Pasta_and_apple",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasta_and_apple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bolofpastawithapple",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolofpastawithapple"
+    },
+    {
+      "name": "Pastaisgood",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastaisgood"
+    },
+    {
+      "name": "Patebasic",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patebasic"
+    },
+    {
+      "name": "You_are_sus",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_are_sus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife"
+    },
+    {
+      "name": "Pastabecomepasta",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastabecomepasta"
+    },
+    {
+      "name": "Youbecomesus",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youbecomesus"
+    },
+    {
+      "name": "Pastainabol",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastainabol"
+    },
+    {
+      "name": "Pastawithapple",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastawithapple"
     }
   ],
   "variable_elements": [],
@@ -284,24 +472,33 @@
   ],
   "language_map": {
     "en_us": {
+      "advancements.pastaisgood.descr": "just eat a bol of pasta",
+      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
+      "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
+      "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
+      "subtitles.sussy-song": "",
+      "itemGroup.tabdidsquesus_1": "Didsquesus 1",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpasta": "Bolofpasta",
+      "advancements.pastaisgood.title": "Pastaisgood",
+      "item.dond_cheou_et_autre_trucs_chelou.scary": "Scary",
+      "advancements.sussypickaxe.descr": "get the sussy pickaxe",
+      "item.minecraft.lingering_potion.effect.potionsus": "Lingering Potion of MLG",
       "advancements.sussypickaxe.title": "Sussypickaxe",
       "item.dond_cheou_et_autre_trucs_chelou.sussysword": "Sussysword",
       "advancements.sussyswordavancement.descr": "get the sussy sword",
-      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
       "item.minecraft.potion.effect.potionsus": "Potion of MLG",
       "advancements.customsus.title": "you choose the sussy path",
       "item.minecraft.splash_potion.effect.potionsus": "Splash Potion of MLG",
       "item.dond_cheou_et_autre_trucs_chelou.forgestick": "stickcheet",
-      "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.pasta": "Pasta",
       "item.dond_cheou_et_autre_trucs_chelou.explodeitem": "Explodeitem",
-      "subtitles.sussy-song": "",
-      "itemGroup.tabdidsquesus_1": "Didsquesus 1",
       "advancements.eatastick.title": "Eatastick",
       "advancements.sussyswordavancement.title": "sussy_sword_défi",
-      "item.dond_cheou_et_autre_trucs_chelou.scary": "Scary",
-      "advancements.sussypickaxe.descr": "get the sussy pickaxe",
+      "advancements.youbecomesus.title": "Youbecomesus",
+      "advancements.youbecomesus.descr": "you are very sus",
       "item.dond_cheou_et_autre_trucs_chelou.sussyitem": "Sussypickaxe",
-      "item.minecraft.lingering_potion.effect.potionsus": "Lingering Potion of MLG",
       "advancements.customsus.descr": "listen the scary disc",
       "advancements.eatastick.descr": "eat a stickcheet"
     }

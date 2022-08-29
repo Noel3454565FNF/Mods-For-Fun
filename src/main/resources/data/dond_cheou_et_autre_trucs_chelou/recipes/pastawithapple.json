@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "dond_cheou_et_autre_trucs_chelou:bolofpasta"
+    },
+    "1": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:bolofpastawithapple",
+    "count": 1
+  }
+}
