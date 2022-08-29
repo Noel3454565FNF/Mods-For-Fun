@@ -457,6 +457,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pastawithapple"
+    },
+    {
+      "name": "Smeltedpickaxe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltedpickaxe"
     }
   ],
   "variable_elements": [],
