@@ -17,5 +17,5 @@ import net.mcreator.dondcheouetautretrucschelou.DondCheouEtAutreTrucsChelouMod;
 public class DondCheouEtAutreTrucsChelouModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, DondCheouEtAutreTrucsChelouMod.MODID);
 	public static final RegistryObject<Potion> POTIONSUS = REGISTRY.register("potionsus",
-			() -> new Potion(new MobEffectInstance(MobEffects.LEVITATION, 10, 10, false, true)));
+			() -> new Potion(new MobEffectInstance(MobEffects.LEVITATION, 100, 10, false, true)));
 }
