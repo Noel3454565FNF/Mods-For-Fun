@@ -3,7 +3,7 @@ package net.mcreator.dondcheouetautretrucschelou.procedures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.event.entity.player.FillBucketEvent;
 
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.ItemStack;
@@ -15,7 +15,7 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class Sussyitem2swordProcedure {
 	@SubscribeEvent
-	public static void onItemSmelted(PlayerEvent.ItemSmeltedEvent event) {
+	public static void onBucketFill(FillBucketEvent event) {
 		execute(event);
 	}
 
