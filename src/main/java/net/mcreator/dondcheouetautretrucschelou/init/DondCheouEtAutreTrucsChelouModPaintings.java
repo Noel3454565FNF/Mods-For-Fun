@@ -18,5 +18,6 @@ public class DondCheouEtAutreTrucsChelouModPaintings {
 		event.getRegistry().register(new Motive(80, 80).setRegistryName("sussypeinture"));
 		event.getRegistry().register(new Motive(80, 80).setRegistryName("kd_bpicture"));
 		event.getRegistry().register(new Motive(80, 80).setRegistryName("hommagepicture"));
+		event.getRegistry().register(new Motive(80, 80).setRegistryName("sus"));
 	}
 }

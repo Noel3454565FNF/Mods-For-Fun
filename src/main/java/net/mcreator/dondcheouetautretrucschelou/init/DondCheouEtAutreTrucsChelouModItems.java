@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.dondcheouetautretrucschelou.item.UraniumItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyswordItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyitemItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ScaryItem;
@@ -35,5 +34,4 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> BOLOFPASTA = REGISTRY.register("bolofpasta", () -> new BolofpastaItem());
 	public static final RegistryObject<Item> BOLOFPASTAWITHAPPLE = REGISTRY.register("bolofpastawithapple", () -> new BolofpastawithappleItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
-	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 }
