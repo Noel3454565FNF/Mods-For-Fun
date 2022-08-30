@@ -30,6 +30,7 @@ import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelou
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModPotions;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModItems;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModFeatures;
+import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,7 @@ public class DondCheouEtAutreTrucsChelouMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		DondCheouEtAutreTrucsChelouModItems.REGISTRY.register(bus);
+		DondCheouEtAutreTrucsChelouModEntities.REGISTRY.register(bus);
 
 		DondCheouEtAutreTrucsChelouModFeatures.REGISTRY.register(bus);
 

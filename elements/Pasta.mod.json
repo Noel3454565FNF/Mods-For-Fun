@@ -32,6 +32,9 @@
     "onEntitySwing": {
       "name": "Abandonned_pasta"
     },
+    "onDroppedByPlayer": {
+      "name": "Abandonned_pasta"
+    },
     "isFood": true,
     "nutritionalValue": 1,
     "saturation": 0.0,
