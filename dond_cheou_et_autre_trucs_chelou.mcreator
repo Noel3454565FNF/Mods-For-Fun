@@ -467,14 +467,6 @@
       "registry_name": "smeltedpickaxe"
     },
     {
-      "name": "God",
-      "type": "tag",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "god"
-    },
-    {
       "name": "Magical_bone_effect",
       "type": "procedure",
       "sortid": 37,
@@ -509,6 +501,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magicalbone"
+    },
+    {
+      "name": "God",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god"
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
     }
   ],
   "variable_elements": [],
@@ -525,12 +533,11 @@
   "language_map": {
     "en_us": {
       "advancements.pastaisgood.descr": "just eat a bol of pasta",
-      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
-      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
       "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
       "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
       "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
-      "item.dond_cheou_et_autre_trucs_chelou.magicalbone": "Magicalbone",
       "subtitles.sussy-song": "",
       "itemGroup.tabdidsquesus_1": "Didsquesus 1",
       "item.dond_cheou_et_autre_trucs_chelou.bolofpasta": "Bolofpasta",
