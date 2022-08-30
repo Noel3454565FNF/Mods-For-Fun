@@ -465,6 +465,50 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "smeltedpickaxe"
+    },
+    {
+      "name": "God",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god"
+    },
+    {
+      "name": "Magical_bone_effect",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_bone_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magicalbone",
+      "type": "rangeditem",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalbone"
     }
   ],
   "variable_elements": [],
@@ -486,6 +530,7 @@
       "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
       "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
       "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.magicalbone": "Magicalbone",
       "subtitles.sussy-song": "",
       "itemGroup.tabdidsquesus_1": "Didsquesus 1",
       "item.dond_cheou_et_autre_trucs_chelou.bolofpasta": "Bolofpasta",

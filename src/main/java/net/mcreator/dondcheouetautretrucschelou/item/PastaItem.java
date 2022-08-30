@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.dondcheouetautretrucschelou.procedures.Abandonned_pastaProcedure;
@@ -29,5 +30,11 @@ public class PastaItem extends Item {
 		boolean retval = super.onEntitySwing(itemstack, entity);
 		Abandonned_pastaProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
 		return retval;
+	}
+
+	@Override
+	public boolean onDroppedByPlayer(ItemStack itemstack, Player entity) {
+		Abandonned_pastaProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
+		return true;
 	}
 }

@@ -1,0 +1,45 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "magical_bone",
+    "customModelName": "Normal",
+    "name": "Magicalbone",
+    "specialInfo": [
+      "you can send it"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 20,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 250,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.BONE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "Magical_bone_effect"
+    },
+    "onBulletHitsEntity": {
+      "name": "Magical_bone_effect"
+    }
+  }
+}

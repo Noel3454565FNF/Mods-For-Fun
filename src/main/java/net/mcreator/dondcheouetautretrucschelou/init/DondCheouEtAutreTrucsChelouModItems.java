@@ -15,6 +15,7 @@ import net.mcreator.dondcheouetautretrucschelou.item.SussyitemItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ScaryItem;
 import net.mcreator.dondcheouetautretrucschelou.item.PateItem;
 import net.mcreator.dondcheouetautretrucschelou.item.PastaItem;
+import net.mcreator.dondcheouetautretrucschelou.item.MagicalboneItem;
 import net.mcreator.dondcheouetautretrucschelou.item.KnifeItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ForgestickItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ExplodeitemItem;
@@ -34,4 +35,5 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> BOLOFPASTA = REGISTRY.register("bolofpasta", () -> new BolofpastaItem());
 	public static final RegistryObject<Item> BOLOFPASTAWITHAPPLE = REGISTRY.register("bolofpastawithapple", () -> new BolofpastawithappleItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
+	public static final RegistryObject<Item> MAGICALBONE = REGISTRY.register("magicalbone", () -> new MagicalboneItem());
 }
