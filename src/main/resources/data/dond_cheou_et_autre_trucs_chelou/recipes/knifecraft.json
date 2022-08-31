@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "dond_cheou_et_autre_trucs_chelou:forgestick"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:knife",
+    "count": 1
+  }
+}

@@ -31,6 +31,12 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "Poison_de_luranium"
+    },
+    "onItemInUseTick": {
+      "name": "Poison_de_luranium"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

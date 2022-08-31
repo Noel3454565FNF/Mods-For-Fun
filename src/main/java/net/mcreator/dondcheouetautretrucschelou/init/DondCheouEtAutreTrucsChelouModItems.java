@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.dondcheouetautretrucschelou.item.UrianiumbootsItem;
 import net.mcreator.dondcheouetautretrucschelou.item.UraniumItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyswordItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyitemItem;
@@ -38,4 +39,10 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> MAGICALBONE = REGISTRY.register("magicalbone", () -> new MagicalboneItem());
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
+	public static final RegistryObject<Item> URIANIUMBOOTS_HELMET = REGISTRY.register("urianiumboots_helmet", () -> new UrianiumbootsItem.Helmet());
+	public static final RegistryObject<Item> URIANIUMBOOTS_CHESTPLATE = REGISTRY.register("urianiumboots_chestplate",
+			() -> new UrianiumbootsItem.Chestplate());
+	public static final RegistryObject<Item> URIANIUMBOOTS_LEGGINGS = REGISTRY.register("urianiumboots_leggings",
+			() -> new UrianiumbootsItem.Leggings());
+	public static final RegistryObject<Item> URIANIUMBOOTS_BOOTS = REGISTRY.register("urianiumboots_boots", () -> new UrianiumbootsItem.Boots());
 }
