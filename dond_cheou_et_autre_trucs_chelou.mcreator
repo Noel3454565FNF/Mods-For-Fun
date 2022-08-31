@@ -519,12 +519,12 @@
       "registry_name": "uranium"
     },
     {
-      "name": "Poison_de_luranium",
+      "name": "Si_equiper_botte",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poison_de_luranium",
+      "registry_name": "si_equiper_botte",
       "metadata": {
         "dependencies": [
           {
@@ -547,12 +547,12 @@
       }
     },
     {
-      "name": "Si_equiper_botte",
+      "name": "Poison_de_luranium",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "si_equiper_botte",
+      "registry_name": "poison_de_luranium",
       "metadata": {
         "dependencies": [
           {
@@ -595,6 +595,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "knifecraft"
+    },
+    {
+      "name": "Sus",
+      "type": "painting",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus"
     }
   ],
   "variable_elements": [],
@@ -611,20 +619,16 @@
   "language_map": {
     "en_us": {
       "advancements.pastaisgood.descr": "just eat a bol of pasta",
-      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
-      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
       "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
-      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_chestplate": "Plastron de Urianium",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
       "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
       "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
-      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_boots": "Bottes en Urianium",
-      "item.dond_cheou_et_autre_trucs_chelou.magicalbone": "Magicalbone",
       "subtitles.sussy-song": "",
       "itemGroup.tabdidsquesus_1": "Didsquesus 1",
       "item.dond_cheou_et_autre_trucs_chelou.bolofpasta": "Bolofpasta",
       "advancements.pastaisgood.title": "Pastaisgood",
       "item.dond_cheou_et_autre_trucs_chelou.scary": "Scary",
-      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_leggings": "Jambières de Urianium",
       "advancements.sussypickaxe.descr": "get the sussy pickaxe",
       "item.minecraft.lingering_potion.effect.potionsus": "Lingering Potion of MLG",
       "advancements.sussypickaxe.title": "Sussypickaxe",
@@ -640,7 +644,6 @@
       "advancements.eatastick.title": "Eatastick",
       "advancements.sussyswordavancement.title": "sussy_sword_défi",
       "advancements.youbecomesus.title": "Youbecomesus",
-      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_helmet": "Casque en Urianium",
       "advancements.youbecomesus.descr": "you are very sus",
       "item.dond_cheou_et_autre_trucs_chelou.sussyitem": "Sussypickaxe",
       "advancements.customsus.descr": "listen the scary disc",

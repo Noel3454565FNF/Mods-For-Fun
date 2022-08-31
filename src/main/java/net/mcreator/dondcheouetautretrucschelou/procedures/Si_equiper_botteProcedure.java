@@ -1,12 +1,8 @@
 package net.mcreator.dondcheouetautretrucschelou.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class Si_equiper_botteProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
