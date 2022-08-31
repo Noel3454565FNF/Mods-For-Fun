@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "dond_cheou_et_autre_trucs_chelou:lov_eknifetools"
+    },
+    "title": {
+      "translate": "advancements.youareamurder.title"
+    },
+    "description": {
+      "translate": "advancements.youareamurder.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "youareamurder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dond_cheou_et_autre_trucs_chelou:lov_eknifetools"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "dond_cheou_et_autre_trucs_chelou:customsus"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:heads"
+    },
+    "1": {
+      "item": "dond_cheou_et_autre_trucs_chelou:knife"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:lov_eknifetools",
+    "count": 1
+  }
+}

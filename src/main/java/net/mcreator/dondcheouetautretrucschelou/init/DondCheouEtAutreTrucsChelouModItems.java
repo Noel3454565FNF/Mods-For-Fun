@@ -18,6 +18,7 @@ import net.mcreator.dondcheouetautretrucschelou.item.ScaryItem;
 import net.mcreator.dondcheouetautretrucschelou.item.PateItem;
 import net.mcreator.dondcheouetautretrucschelou.item.PastaItem;
 import net.mcreator.dondcheouetautretrucschelou.item.MagicalboneItem;
+import net.mcreator.dondcheouetautretrucschelou.item.LOVEknifetoolsItem;
 import net.mcreator.dondcheouetautretrucschelou.item.KnifeItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ForgestickItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ExplodeitemItem;
@@ -45,4 +46,5 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> URIANIUMBOOTS_LEGGINGS = REGISTRY.register("urianiumboots_leggings",
 			() -> new UrianiumbootsItem.Leggings());
 	public static final RegistryObject<Item> URIANIUMBOOTS_BOOTS = REGISTRY.register("urianiumboots_boots", () -> new UrianiumbootsItem.Boots());
+	public static final RegistryObject<Item> LOV_EKNIFETOOLS = REGISTRY.register("lov_eknifetools", () -> new LOVEknifetoolsItem());
 }

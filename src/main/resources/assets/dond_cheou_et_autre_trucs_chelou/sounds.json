@@ -7,5 +7,15 @@
         "stream": false
       }
     ]
+  },
+  "you_are_a_murderer": {
+    "category": "neutral",
+    "subtitle": "subtitles.you_are_a_murderer",
+    "sounds": [
+      {
+        "name": "dond_cheou_et_autre_trucs_chelou:know_the_deal_instrumental_rearenge",
+        "stream": false
+      }
+    ]
   }
 }

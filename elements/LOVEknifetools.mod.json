@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "love_knife",
+    "customModelName": "Normal",
+    "name": "LOV Eknifetools",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 0.1,
+    "enchantability": 50,
+    "damageVsEntity": 999.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DYE"
+    },
+    "onItemInUseTick": {
+      "name": "DETERMINATION"
+    }
+  }
+}

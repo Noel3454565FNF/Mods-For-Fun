@@ -20,6 +20,8 @@ public class DondCheouEtAutreTrucsChelouModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("dond_cheou_et_autre_trucs_chelou", "sussy-song"),
 				new SoundEvent(new ResourceLocation("dond_cheou_et_autre_trucs_chelou", "sussy-song")));
+		REGISTRY.put(new ResourceLocation("dond_cheou_et_autre_trucs_chelou", "you_are_a_murderer"),
+				new SoundEvent(new ResourceLocation("dond_cheou_et_autre_trucs_chelou", "you_are_a_murderer")));
 	}
 
 	@SubscribeEvent
