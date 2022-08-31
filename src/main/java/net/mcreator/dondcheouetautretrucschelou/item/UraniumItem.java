@@ -30,7 +30,7 @@ public class UraniumItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		Poison_de_luraniumProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
+		Poison_de_luraniumProcedure.execute(entity);
 		return retval;
 	}
 
@@ -38,6 +38,6 @@ public class UraniumItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			Poison_de_luraniumProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+			Poison_de_luraniumProcedure.execute(entity);
 	}
 }

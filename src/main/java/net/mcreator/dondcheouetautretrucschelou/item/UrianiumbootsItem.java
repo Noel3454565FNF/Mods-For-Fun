@@ -110,7 +110,7 @@ public abstract class UrianiumbootsItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Si_equiper_botteProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+			Si_equiper_botteProcedure.execute(entity);
 		}
 	}
 }
