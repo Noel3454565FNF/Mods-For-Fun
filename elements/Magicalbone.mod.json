@@ -31,7 +31,7 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Items.BONE"
+      "value": "CUSTOM:Magicalbone"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
