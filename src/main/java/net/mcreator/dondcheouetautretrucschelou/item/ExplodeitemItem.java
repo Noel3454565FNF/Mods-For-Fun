@@ -54,7 +54,7 @@ public class ExplodeitemItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		Explode_whe_is_destroyProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		Explode_whe_is_destroyProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 
