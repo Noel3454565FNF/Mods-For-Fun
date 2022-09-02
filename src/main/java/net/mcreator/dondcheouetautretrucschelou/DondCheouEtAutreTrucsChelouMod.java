@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModTabs;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModPotions;
+import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModMobEffects;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModItems;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModFeatures;
 import net.mcreator.dondcheouetautretrucschelou.init.DondCheouEtAutreTrucsChelouModEntities;
@@ -54,6 +55,7 @@ public class DondCheouEtAutreTrucsChelouMod {
 
 		DondCheouEtAutreTrucsChelouModFeatures.REGISTRY.register(bus);
 
+		DondCheouEtAutreTrucsChelouModMobEffects.REGISTRY.register(bus);
 		DondCheouEtAutreTrucsChelouModPotions.REGISTRY.register(bus);
 
 	}

@@ -18,4 +18,6 @@ public class DondCheouEtAutreTrucsChelouModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, DondCheouEtAutreTrucsChelouMod.MODID);
 	public static final RegistryObject<Potion> POTIONSUS = REGISTRY.register("potionsus",
 			() -> new Potion(new MobEffectInstance(MobEffects.LEVITATION, 100, 10, false, true)));
+	public static final RegistryObject<Potion> DTPOTION = REGISTRY.register("dtpotion",
+			() -> new Potion(new MobEffectInstance(DondCheouEtAutreTrucsChelouModMobEffects.DT.get(), 3600, 0, false, true)));
 }

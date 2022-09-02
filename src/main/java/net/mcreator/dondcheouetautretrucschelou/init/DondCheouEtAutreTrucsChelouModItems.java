@@ -22,6 +22,7 @@ import net.mcreator.dondcheouetautretrucschelou.item.LOVEknifetoolsItem;
 import net.mcreator.dondcheouetautretrucschelou.item.KnifeItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ForgestickItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ExplodeitemItem;
+import net.mcreator.dondcheouetautretrucschelou.item.DTextractoractivateItem;
 import net.mcreator.dondcheouetautretrucschelou.item.BolofpastawithappleItem;
 import net.mcreator.dondcheouetautretrucschelou.item.BolofpastaItem;
 import net.mcreator.dondcheouetautretrucschelou.DondCheouEtAutreTrucsChelouMod;
@@ -47,4 +48,5 @@ public class DondCheouEtAutreTrucsChelouModItems {
 			() -> new UrianiumbootsItem.Leggings());
 	public static final RegistryObject<Item> URIANIUMBOOTS_BOOTS = REGISTRY.register("urianiumboots_boots", () -> new UrianiumbootsItem.Boots());
 	public static final RegistryObject<Item> LOV_EKNIFETOOLS = REGISTRY.register("lov_eknifetools", () -> new LOVEknifetoolsItem());
+	public static final RegistryObject<Item> D_TEXTRACTORACTIVATE = REGISTRY.register("d_textractoractivate", () -> new DTextractoractivateItem());
 }

@@ -663,6 +663,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lov_eknife"
+    },
+    {
+      "name": "DTextractor",
+      "type": "function",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_textractor"
+    },
+    {
+      "name": "DT_when_use",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dt_when_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dt",
+      "type": "potioneffect",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dt"
+    },
+    {
+      "name": "Dtpotion",
+      "type": "potion",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dtpotion"
+    },
+    {
+      "name": "Extract_is_on",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extract_is_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DTextractoractivate",
+      "type": "rangeditem",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_textractoractivate"
+    },
+    {
+      "name": "Extractorarrow",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractorarrow"
     }
   ],
   "variable_elements": [],
@@ -687,9 +759,11 @@
   "language_map": {
     "en_us": {
       "advancements.pastaisgood.descr": "just eat a bol of pasta",
-      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
-      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.minecraft.potion.effect.dtpotion": "Potion of Dtpotion",
+      "item.minecraft.splash_potion.effect.dtpotion": "Splash Potion of Dtpotion",
       "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
       "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_chestplate": "Plastron de Urianium",
       "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
       "item.dond_cheou_et_autre_trucs_chelou.lov_eknifetools": "LOV Eknifetools",
@@ -711,9 +785,12 @@
       "advancements.customsus.title": "you choose the sussy path",
       "advancements.youareamurder.descr": "\u003d)",
       "item.minecraft.splash_potion.effect.potionsus": "Splash Potion of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.d_textractoractivate": "DT extractor active arrow",
       "item.dond_cheou_et_autre_trucs_chelou.forgestick": "stickcheet",
       "item.dond_cheou_et_autre_trucs_chelou.pasta": "Pasta",
+      "effect.dond_cheou_et_autre_trucs_chelou.dt": "DT_effect",
       "item.dond_cheou_et_autre_trucs_chelou.uranium": "Uranium",
+      "item.minecraft.lingering_potion.effect.dtpotion": "Lingering Potion of Dtpotion",
       "item.dond_cheou_et_autre_trucs_chelou.explodeitem": "Explodeitem",
       "advancements.youareamurder.title": "Youareamurder",
       "advancements.eatastick.title": "Eatastick",
@@ -723,6 +800,54 @@
       "advancements.youbecomesus.descr": "you are very sus",
       "item.dond_cheou_et_autre_trucs_chelou.sussyitem": "Sussypickaxe",
       "subtitles.you_are_a_murderer": "you are the murderer",
+      "item.minecraft.tipped_arrow.effect.dtpotion": "Arrow of Dtpotion",
+      "advancements.customsus.descr": "listen the scary disc",
+      "advancements.eatastick.descr": "eat a stickcheet"
+    },
+    "fr_fr": {
+      "advancements.pastaisgood.descr": "just eat a bol of pasta",
+      "item.minecraft.potion.effect.dtpotion": "Potion of Dtpotion",
+      "item.minecraft.splash_potion.effect.dtpotion": "Splash Potion of Dtpotion",
+      "item.dond_cheou_et_autre_trucs_chelou.scary.desc": "is very scary",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpastawithapple": "Bolofpastawithapple",
+      "item.dond_cheou_et_autre_trucs_chelou.knife": "Knife",
+      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_chestplate": "Plastron de Urianium",
+      "item.dond_cheou_et_autre_trucs_chelou.pate": "Pate",
+      "item.dond_cheou_et_autre_trucs_chelou.lov_eknifetools": "LOV Eknifetools",
+      "item.minecraft.tipped_arrow.effect.potionsus": "Arrow of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_boots": "Bottes en Urianium",
+      "item.dond_cheou_et_autre_trucs_chelou.magicalbone": "Magicalbone",
+      "subtitles.sussy-song": "",
+      "itemGroup.tabdidsquesus_1": "Didsquesus 1",
+      "item.dond_cheou_et_autre_trucs_chelou.bolofpasta": "Bolofpasta",
+      "advancements.pastaisgood.title": "Pastaisgood",
+      "item.dond_cheou_et_autre_trucs_chelou.scary": "Scary",
+      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_leggings": "Jambières de Urianium",
+      "advancements.sussypickaxe.descr": "get the sussy pickaxe",
+      "item.minecraft.lingering_potion.effect.potionsus": "Lingering Potion of MLG",
+      "advancements.sussypickaxe.title": "Sussypickaxe",
+      "item.dond_cheou_et_autre_trucs_chelou.sussysword": "Sussysword",
+      "advancements.sussyswordavancement.descr": "get the sussy sword",
+      "item.minecraft.potion.effect.potionsus": "Potion of MLG",
+      "advancements.customsus.title": "you choose the sussy path",
+      "advancements.youareamurder.descr": "\u003d)",
+      "item.minecraft.splash_potion.effect.potionsus": "Splash Potion of MLG",
+      "item.dond_cheou_et_autre_trucs_chelou.d_textractoractivate": "DT extractor active arrow",
+      "item.dond_cheou_et_autre_trucs_chelou.forgestick": "stickcheet",
+      "item.dond_cheou_et_autre_trucs_chelou.pasta": "Pasta",
+      "effect.dond_cheou_et_autre_trucs_chelou.dt": "DT_effect",
+      "item.dond_cheou_et_autre_trucs_chelou.uranium": "Uranium",
+      "item.minecraft.lingering_potion.effect.dtpotion": "Lingering Potion of Dtpotion",
+      "item.dond_cheou_et_autre_trucs_chelou.explodeitem": "Explodeitem",
+      "advancements.youareamurder.title": "Youareamurder",
+      "advancements.eatastick.title": "Eatastick",
+      "advancements.sussyswordavancement.title": "sussy_sword_défi",
+      "advancements.youbecomesus.title": "Youbecomesus",
+      "item.dond_cheou_et_autre_trucs_chelou.urianiumboots_helmet": "Casque en Urianium",
+      "advancements.youbecomesus.descr": "you are very sus",
+      "item.dond_cheou_et_autre_trucs_chelou.sussyitem": "Sussypickaxe",
+      "subtitles.you_are_a_murderer": "you are the murderer",
+      "item.minecraft.tipped_arrow.effect.dtpotion": "Arrow of Dtpotion",
       "advancements.customsus.descr": "listen the scary disc",
       "advancements.eatastick.descr": "eat a stickcheet"
     }

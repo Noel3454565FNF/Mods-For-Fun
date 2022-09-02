@@ -16,5 +16,6 @@ public class DondCheouEtAutreTrucsChelouModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(DondCheouEtAutreTrucsChelouModEntities.MAGICALBONE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DondCheouEtAutreTrucsChelouModEntities.D_TEXTRACTORACTIVATE.get(), ThrownItemRenderer::new);
 	}
 }

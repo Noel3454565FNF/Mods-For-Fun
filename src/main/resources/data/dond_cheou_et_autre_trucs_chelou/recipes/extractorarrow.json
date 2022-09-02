@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "dond_cheou_et_autre_trucs_chelou:d_textractoractivate",
+    "count": 1
+  }
+}
