@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "antropophobia-remix",
+    "texture": "dusttale_1-modified",
+    "description": "this is the ultimate song of the murderer",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:andtropophibia-remix"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

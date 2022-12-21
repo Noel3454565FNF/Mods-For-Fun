@@ -85,9 +85,9 @@ public class ExplodeitemItem extends Item {
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
-		InteractionResult retval = super.useOn(context);
+		super.useOn(context);
 		Explode_when_right_clickProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(),
 				context.getClickedPos().getZ());
-		return retval;
+		return InteractionResult.SUCCESS;
 	}
 }

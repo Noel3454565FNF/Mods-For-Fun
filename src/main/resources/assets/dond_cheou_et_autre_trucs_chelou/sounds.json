@@ -17,5 +17,14 @@
         "stream": false
       }
     ]
+  },
+  "andtropophibia-remix": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dond_cheou_et_autre_trucs_chelou:friday_night_dustin_ost_-_anthropophobia_erect_remix",
+        "stream": false
+      }
+    ]
   }
 }

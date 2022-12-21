@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "function",
   "definition": {
     "code": "attribute @s minecraft:generic.max_health base set 2\nattribute @s minecraft:generic.attack_damage base set 0.5\neffect give @s minecraft:slowness 20 6\neffect give @s minecraft:mining_fatigue 20 3\neffect give @s minecraft:blindness 20 70\neffect give @r dond_cheou_et_autre_trucs_chelou:dt",

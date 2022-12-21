@@ -1,20 +1,22 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "musicdisc",
   "definition": {
-    "texture": "starnger_face",
     "name": "Scary",
+    "texture": "starnger_face",
     "description": "is very scary",
     "creativeTab": {
       "value": "CUSTOM:Didsquesus1"
-    },
-    "music": {
-      "value": "CUSTOM:sussy-song"
     },
     "specialInfo": [
       "don't do this",
       "because is very scray"
     ],
-    "hasGlow": true
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:sussy-song"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
   }
 }

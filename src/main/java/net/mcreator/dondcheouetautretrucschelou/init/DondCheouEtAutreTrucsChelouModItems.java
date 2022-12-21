@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.dondcheouetautretrucschelou.item.UrianiumbootsItem;
 import net.mcreator.dondcheouetautretrucschelou.item.UraniumItem;
+import net.mcreator.dondcheouetautretrucschelou.item.ULTIMATEItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyswordItem;
 import net.mcreator.dondcheouetautretrucschelou.item.SussyitemItem;
 import net.mcreator.dondcheouetautretrucschelou.item.ScaryItem;
@@ -49,4 +50,5 @@ public class DondCheouEtAutreTrucsChelouModItems {
 	public static final RegistryObject<Item> URIANIUMBOOTS_BOOTS = REGISTRY.register("urianiumboots_boots", () -> new UrianiumbootsItem.Boots());
 	public static final RegistryObject<Item> LOV_EKNIFETOOLS = REGISTRY.register("lov_eknifetools", () -> new LOVEknifetoolsItem());
 	public static final RegistryObject<Item> D_TEXTRACTORACTIVATE = REGISTRY.register("d_textractoractivate", () -> new DTextractoractivateItem());
+	public static final RegistryObject<Item> ULTIMATE = REGISTRY.register("ultimate", () -> new ULTIMATEItem());
 }

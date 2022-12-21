@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "dond_cheou_et_autre_trucs_chelou:ultimate"
+    },
+    "title": {
+      "translate": "advancements.ultimate_murderer.title"
+    },
+    "description": {
+      "translate": "advancements.ultimate_murderer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ultimate_murderer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dond_cheou_et_autre_trucs_chelou:ultimate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "dond_cheou_et_autre_trucs_chelou:customsus"
+}
